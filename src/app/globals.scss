@@ -9,6 +9,12 @@
 
 @import './styles/fonts';
 
+@import './styles/variables';
+
+@import './styles/common/index';
+
+@import './styles/ui/index';
+
 body {
     font-family: 'Roboto';
 }
