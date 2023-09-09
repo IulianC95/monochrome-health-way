@@ -127,6 +127,16 @@ export default function Header() {
                   Spirit
                 </a>
               </li>
+              <li>
+                <a href="/" title="For your soul">
+                  Strength
+                </a>
+              </li>
+              <li>
+                <a href="/" title="For your soul">
+                  Vitality
+                </a>
+              </li>
             </ul>
           </div>
   
