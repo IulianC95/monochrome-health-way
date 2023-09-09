@@ -10,14 +10,14 @@ export default function StyleGuide() {
         </div>
         <div className="box">
           <div className="button button-style-1">
-            <button>New In</button>
+            <a href="/" title="New products">New In</a>
             
           </div>
         </div>
         <br />
         <div className="box">
-          <div className="button button-style-2">
-            <a href="/">view all</a>
+          <div>
+            <a className="button button-style-2" href="/">view all</a>
           </div>
         </div>
         <br />

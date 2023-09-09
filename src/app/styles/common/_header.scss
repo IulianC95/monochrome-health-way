@@ -1,0 +1,224 @@
+.header {
+  width: 100%;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 40px;
+    background: url("../../../../public/images/banner-desktop.png") no-repeat
+      center center/cover;
+    height: 500px;
+    width: 100%;
+  }
+
+  &-secondary {
+    width: 100%;
+    padding: 10px 0;
+    background-color: $brand-main;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    @include media-breakpoint-up(lg) {
+      height: 432px;
+      margin: 0;
+      padding: 0;
+      background: none;
+      position: static;
+      
+    }
+
+    &-inner {
+      @include media-breakpoint-up(lg) {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 132px;
+      }
+    }
+
+    .header-connect {
+      color: $white;
+      grid-area: 1 / 1 / 2 / 2;
+
+      ul {
+        height: 34px;
+        gap: 20px;
+        letter-spacing: 0.24px;
+
+        li:last-child {
+          font-size: 16px;
+        }
+
+        .icon-social {
+          width: 34px;
+          text-align: center;
+
+          a {
+            transition: color 0.1s linear, font-size 0.1s linear;
+          }
+
+          a:hover {
+            color: rgb(171, 85, 25);
+            font-size: 30px;
+          }
+        }
+      }
+    }
+
+    .header-controls {
+      background-color: $brand-main;
+
+      @include media-breakpoint-up(lg) {
+        background-color: transparent;
+      }
+
+      h1 {
+        font-size: 32px;
+        font-weight: 400;
+        font-family: "Kolker Brush";
+        text-transform: capitalize;
+        margin: 0;
+      }
+
+      ul {
+        gap: 10px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        grid-area: 1 / 2 / 2 / 3;
+        justify-self: end;
+
+        form {
+          display: flex;
+          flex-direction: row-reverse;
+          border: none;
+          gap: 10px;
+          padding-left: 10px;
+          width: 254px;
+          background: $white;
+          border-radius: 20px;
+
+          input {
+            outline: none;
+            border: none;
+            background: none;
+            max-width: 224px;
+            width: 100%;
+            font-size: 14px;
+          }
+
+          input::placeholder {
+            font-size: 14px;
+            font-family: "Khand";
+            color: inherit;
+          }
+          button {
+            background: none;
+            border: none;
+          }
+        }
+
+        a {
+          transition: color 0.2s linear;
+
+          &:hover {
+            color: rgb(171, 85, 25);
+          }
+        }
+      }
+    }
+  }
+
+  &-primary {
+    background-color: $container-4;
+    margin-top: 56px;
+
+    @include media-breakpoint-up(lg) {
+      color: $black;
+      font-size: 20px;
+      text-transform: lowercase;
+      padding: 16px 0 12px 0;
+      margin: 0;
+      background-color: $container-5;
+
+      a {
+        transition: color 0.2s linear;
+      }
+
+      a:hover {
+        color: $black;
+      }
+    }
+
+    &-search {
+      background-color: $container-4;
+      display: grid;
+      grid-template: 1fr / 1fr 1fr;
+
+      button[type="button"] {
+        grid-area: 1 / 1 / 2 / 2;
+        font-size: 30px;
+        justify-self: start;
+        background-color: transparent;
+        border: none;
+        color: $white;
+      }
+
+      button[type="submit"] {
+        background-color: transparent;
+        border: none;
+        order: -1;
+        color: gray;
+        font-size: 18px;
+      }
+
+      form {
+        grid-area: 1 / 1 / 2 / 3;
+        justify-self: end;
+        align-self: center;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        color: $black;
+        border: none;
+        padding: 0 16px;
+        width: 230px;
+        background-color: $white;
+        border-radius: 20px;
+
+        input {
+          border: none;
+          background: $white;
+          color: $white;
+          outline: none;
+          font-size: 12px;
+          width: 100%;
+        }
+
+        input::placeholder {
+          color: $black;
+          text-transform: lowercase;
+          font-style: italic;
+          font-size: 14px;
+        }
+      }
+
+      .button-style-1 {
+        position: absolute;
+        bottom: -330%;
+        right: 3%;
+      }
+    }
+
+    &-banner {
+      background: url("../../../../public/images/mobile-banner.png") no-repeat
+        center center / cover;
+      height: 177px;
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
