@@ -1,0 +1,60 @@
+.footer {
+    font-family: 'Khand', sans-serif;
+    h3 {
+        text-align: center;
+        color: $white;
+        
+        font-size: 32px;
+
+    }
+
+    footer > div {
+        background-color: $gray-primary;
+        
+    }
+
+    &-links {
+        display: flex;
+        text-transform: lowercase;
+        align-items: center;
+        
+        font-size: 24px;
+    }
+
+    &-connect {
+        h3 {
+            font-size: 24px;
+            color: $black;
+            
+        }
+
+        h3:nth-of-type(2) {
+            color: $white;
+        }
+
+        form {
+            margin-bottom: 50px;
+
+            .newsletter {
+                font-size: 18px;
+            }
+        }
+    }
+    
+}
+
+.vertical-line {
+    height: 100px;
+    width: 3px;
+    background-color: $white;
+    
+}
+
+.connect-bg {
+    background-color: $container-6;
+}
+
+.agreement {
+    font-size: 18px;
+    color: $white;
+}
