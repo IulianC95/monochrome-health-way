@@ -69,9 +69,7 @@
 
   .connect-bg {
     background-color: $container-6;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    
 
     @include media-breakpoint-up(lg) {
       background-color: transparent;
@@ -95,9 +93,7 @@
 
 @include media-breakpoint-up(lg) {
   section.footer-lg {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    
     background-color: $gray-primary;
     height: 331px;
     padding-top: 54px;
