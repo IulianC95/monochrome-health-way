@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <body>
       <div>
+        <header className="my-5">
         <Header></Header>
-
+        </header>
         <NewProductsTile></NewProductsTile>
-        <NewProductsTile></NewProductsTile>
-        <NewProductsTile></NewProductsTile>
+       <br />
 
         <Footer></Footer>
       </div>
