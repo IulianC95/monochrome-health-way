@@ -1,60 +1,132 @@
 .footer {
-    font-family: 'Khand', sans-serif;
+  font-family: "Khand", sans-serif;
+  background-color: $gray-primary;
+
+  h3 {
+    text-align: center;
+    color: $white;
+    font-size: 32px;
+  }
+
+  .footer-1 {
+    background-color: $gray-primary;
+
     h3 {
-        text-align: center;
-        color: $white;
-        
-        font-size: 32px;
-
+      color: $white;
     }
 
-    footer > div {
-        background-color: $gray-primary;
-        
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+  &-links {
+    display: flex;
+    text-transform: lowercase;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+
+    @include media-breakpoint-up(lg) {
+      padding-top: 38px;
+    }
+  }
+
+  &-connect {
+    @include media-breakpoint-up(lg) {
+      padding-top: 54px;
+    }
+  }
+  h3 {
+    font-size: 24px;
+    color: $black;
+  }
+
+  h3:nth-of-type(2) {
+    color: $white;
+  }
+
+  form {
+    margin-bottom: 50px;
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 12px;
     }
 
-    &-links {
-        display: flex;
-        text-transform: lowercase;
-        align-items: center;
-        
-        font-size: 24px;
-    }
-
-    &-connect {
-        h3 {
-            font-size: 24px;
-            color: $black;
-            
-        }
-
-        h3:nth-of-type(2) {
-            color: $white;
-        }
-
-        form {
-            margin-bottom: 50px;
-
-            .newsletter {
-                font-size: 18px;
-            }
-        }
-    }
+    .newsletter {
+      font-size: 16px;
+      }
     
-}
+  }
 
-.vertical-line {
+  .vertical-line {
     height: 100px;
     width: 3px;
     background-color: $white;
-    
-}
+  }
 
-.connect-bg {
+  .connect-bg {
     background-color: $container-6;
+
+    @include media-breakpoint-up(lg) {
+      background-color: transparent;
+    }
+  }
+
+  .agreement {
+    font-size: 17px;
+    color: $white;
+    width: 212px;
+  }
+}
+@media (max-width: 991px) {
+  footer.container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 }
 
-.agreement {
-    font-size: 18px;
-    color: $white;
+@include media-breakpoint-up(lg) {
+  section.footer-lg {
+    background-color: $gray-primary;
+    height: 331px;
+    padding-top: 54px;
+    font-size: 24px;
+  }
+
+  .footer-lg-inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+  }
+
+  .footer-lg-connect {
+    display: flex;
+    flex-direction: column;
+    width: 219px;
+    
+
+    form {
+        gap: 10px;
+
+        label {
+            color: $white;
+        }
+
+        label:last-child {
+            font-size: 16px;
+        }
+
+        input[type='text'] {
+            width: 217px;
+            height: 26px;
+            background-color: $gray-secondary;
+            font-size: 16px;
+
+        }
+    }
+  }
 }
