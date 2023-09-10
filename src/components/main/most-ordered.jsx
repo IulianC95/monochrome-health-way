@@ -8,9 +8,16 @@ export default function MostOrdered() {
             </h1>
         </header>
         <main className="most-ordered-main">
-            <div className="product">
+            <div className="product d-lg-none">
                 <picture>
                     <img src="/images/1cordy.png" alt=""  title=""/>
+                </picture>
+                <h2>Health way</h2>
+                <p>$48</p>
+            </div>
+            <div className="product d-none d-lg-block">
+                <picture>
+                    <img src="/images/5agari.png" alt=""  title=""/>
                 </picture>
                 <h2>Health way</h2>
                 <p>$48</p>
@@ -24,14 +31,14 @@ export default function MostOrdered() {
             </div>
             <div className="product d-none d-lg-block">
                 <picture>
-                    <img src="/images/3reishi.png" alt=""  title=""/>
+                    <img src="/images/1cordy.png" alt=""  title=""/>
                 </picture>
                 <h2>Health way</h2>
                 <p>$48</p>
             </div>
             <div className="product d-none d-lg-block">
                 <picture>
-                    <img src="/images/4lion.png" alt=""  title=""/>
+                    <img src="/images/3reishi.png" alt=""  title=""/>
                 </picture>
                 <h2>Health way</h2>
                 <p>$48</p>
