@@ -1,0 +1,49 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .mobile-img {
+    max-width: 100%;
+    overflow: hidden;
+
+    @include media-breakpoint-up(lg) {
+      width: 666px;
+      height: 666px;
+    }
+  }
+
+  &-text {
+    @include media-breakpoint-up(lg) {
+      max-width: calc(100% - 666px);
+    }
+
+    h2 {
+      font-family: 'Kolker Brush';
+      font-size: 48px;
+      color: $white;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 96px;
+      }
+    }
+
+    p {
+      font-family: 'Khand';
+      font-size: 26px;
+      color: $white;
+
+      @include media-breakpoint-up(lg) {
+      }
+    }
+  }
+}
