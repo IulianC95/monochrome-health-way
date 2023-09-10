@@ -69,6 +69,7 @@
 
   .connect-bg {
     background-color: $container-6;
+    margin-bottom: -20px;
     
 
     @include media-breakpoint-up(lg) {
