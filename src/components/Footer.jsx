@@ -15,7 +15,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a href="/" title="Customer Care">
-                      Customer Care
+                      Assistance
                     </a>
                   </li>
                   <li>
@@ -61,220 +61,217 @@ export default function Footer() {
               </ul>
             </section>
             <section className="connect-bg">
-            <div id="footer-connect" className="footer-connect container d-flex flex-column align-items-center">
-              <h3 className="py-3 d-lg-none">Let&apos;s connect</h3>
-              <form className="d-flex flex-column align-items-center gap-3">
-                <label htmlFor="newsletter" className="newsletter d-lg-none">
-                  Be the first to receive exclusive offers
-                  
-                </label>
-                
-                <input
-                  type="text"
-                  id="newsletter"
-                  name="newsletter"
-                  title="Newsletter"
-                  placeholder="Email"
-                  className="w-100"
-                  required
-                />
-                <div className="button button-style-3">
-                  <button>submit</button>
-                </div>
-                <div className="d-flex gap-2">
+              <div
+                id="footer-connect"
+                className="footer-connect container d-flex flex-column align-items-center"
+              >
+                <h3 className="py-3 d-lg-none">Let&apos;s connect</h3>
+                <form className="d-flex flex-column align-items-center gap-3">
+                  <label htmlFor="newsletter" className="newsletter d-lg-none">
+                    Be the first to receive exclusive offers
+                  </label>
+
                   <input
-                    type="checkbox"
-                    id="agreement"
-                    name="agreement"
-                    className="align-self-start"
+                    type="text"
+                    id="newsletter"
+                    name="newsletter"
+                    title="Newsletter"
+                    placeholder="Email"
+                    className="w-100"
                     required
                   />
-                  <label className="agreement" htmlFor="agreement">
-                    I agree with Privacy Policy and I want to receive emails
-                    from Health Way.
-                  </label>
-                </div>
-              </form>
-              <h3 className="d-lg-none">We are highly likeable</h3>
-              <section>
-                <ul className="d-flex gap-4 fs-3 py-3">
-                  <li className="icon-social">
-                    <a
-                      href="http://www.youtube.com"
-                      title="Our Youtube"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa-brands fa-youtube"></i>
-                    </a>
-                  </li>
-                  <li className="icon-social">
-                    <a
-                      href="http://www.facebook.com"
-                      title="Our Facebook"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa-brands fa-facebook"></i>
-                    </a>
-                  </li>
+                  <div className="button button-style-3">
+                    <button>submit</button>
+                  </div>
+                  <div className="d-flex gap-2">
+                    <input
+                      type="checkbox"
+                      id="agreement"
+                      name="agreement"
+                      className="align-self-start"
+                      required
+                    />
+                    <label className="agreement" htmlFor="agreement">
+                      I agree with Privacy Policy and I want to receive emails
+                      from Health Way.
+                    </label>
+                  </div>
+                </form>
+                <h3 className="d-lg-none">We are highly likeable</h3>
+                <section>
+                  <ul className="d-flex gap-4 fs-3 py-3">
+                    <li className="icon-social">
+                      <a
+                        href="http://www.youtube.com"
+                        title="Our Youtube"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa-brands fa-youtube"></i>
+                      </a>
+                    </li>
+                    <li className="icon-social">
+                      <a
+                        href="http://www.facebook.com"
+                        title="Our Facebook"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa-brands fa-facebook"></i>
+                      </a>
+                    </li>
 
-                  <li className="icon-social">
-                    <a
-                      href="http://www.twitter.com"
-                      title="Our Twitter"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa-brands fa-twitter"></i>
-                    </a>
-                  </li>
+                    <li className="icon-social">
+                      <a
+                        href="http://www.twitter.com"
+                        title="Our Twitter"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa-brands fa-twitter"></i>
+                      </a>
+                    </li>
 
-                  <li className="icon-social">
-                    <a
-                      href="http://www.instagram.com"
-                      title="Our Instagram"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa-brands fa-instagram"></i>
-                    </a>
-                  </li>
-                </ul>
-              </section>
-            </div>
+                    <li className="icon-social">
+                      <a
+                        href="http://www.instagram.com"
+                        title="Our Instagram"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa-brands fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
             </section>
           </div>
-          
-            
-          
         </footer>
       </section>
       <section className="footer-lg d-none d-lg-block">
         <div className="footer-lg-inner container">
-            <section className="footer-lg-contact">
+          <section className="footer-lg-contact">
             <div className="footer-inner">
-                <ul>
-                  <li>
-                    <a href="/" title="Contact Us" className="text-lowercase">
-                      Contact Us
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/" title="Customer Care" className="text-lowercase">
-                      Customer Care
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/" title="Delivery" className="text-lowercase">
-                      Delivery
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <section className="footer-lg-common">
+              <ul>
+                <li>
+                  <a href="/" title="Contact Us" className="text-lowercase">
+                    Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a href="/" title="Customer Care" className="text-lowercase">
+                    Customer Care
+                  </a>
+                </li>
+                <li>
+                  <a href="/" title="Delivery" className="text-lowercase">
+                    Delivery
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section className="footer-lg-common">
             <nav className="footer-nav">
-                <ul>
-                  <li>
-                    <a href="/" title="About Us" className="text-lowercase">
-                      About Us
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/" title="Faq" className="text-uppercase">
-                      Faq
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/" title="Affiliates" className="text-lowercase">
-                      Affiliates
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </section>
-            <section className="footer-lg-connect">
+              <ul>
+                <li>
+                  <a href="/" title="About Us" className="text-lowercase">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="/" title="Faq" className="text-uppercase">
+                    Faq
+                  </a>
+                </li>
+                <li>
+                  <a href="/" title="Affiliates" className="text-lowercase">
+                    Affiliates
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <section className="footer-lg-connect">
             <form className="d-flex flex-column align-items-center">
-                <label htmlFor="newsletter" className="newsletter">
-                  Sign up for our newsletter
-                  
-                </label>
-                
+              <label htmlFor="newsletter" className="newsletter">
+                Sign up for our newsletter
+              </label>
+
+              <input
+                type="text"
+                id="newsletter"
+                name="newsletter"
+                title="Newsletter"
+                placeholder="Email address"
+                required
+              />
+              <div className="button button-style-3">
+                <button>submit</button>
+              </div>
+              <div className="d-flex gap-2">
                 <input
-                  type="text"
-                  id="newsletter"
-                  name="newsletter"
-                  title="Newsletter"
-                  placeholder="Email address"
-    
+                  type="checkbox"
+                  id="agreement"
+                  name="agreement"
+                  className="align-self-start"
                   required
                 />
-                <div className="button button-style-3">
-                  <button>submit</button>
-                </div>
-                <div className="d-flex gap-2">
-                  <input
-                    type="checkbox"
-                    id="agreement"
-                    name="agreement"
-                    className="align-self-start"
-                    required
-                  />
-                  <label className="agreement" htmlFor="agreement">
-                    I agree with Privacy Policy and I want to receive emails
-                    from Health Way.
-                  </label>
-                </div>
-              </form>
-              
-              <section>
-                <ul className="d-flex gap-4 fs-3 py-3">
-                  <li className="icon-social">
-                    <a
-                      href="http://www.youtube.com"
-                      title="Our Youtube"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa-brands fa-youtube"></i>
-                    </a>
-                  </li>
-                  <li className="icon-social">
-                    <a
-                      href="http://www.facebook.com"
-                      title="Our Facebook"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa-brands fa-facebook"></i>
-                    </a>
-                  </li>
+                <label className="agreement" htmlFor="agreement">
+                  I agree with Privacy Policy and I want to receive emails from
+                  Health Way.
+                </label>
+              </div>
+            </form>
 
-                  <li className="icon-social">
-                    <a
-                      href="http://www.twitter.com"
-                      title="Our Twitter"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa-brands fa-twitter"></i>
-                    </a>
-                  </li>
+            <section>
+              <ul className="d-flex gap-4 fs-3 py-3">
+                <li className="icon-social">
+                  <a
+                    href="http://www.youtube.com"
+                    title="Our Youtube"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-brands fa-youtube"></i>
+                  </a>
+                </li>
+                <li className="icon-social">
+                  <a
+                    href="http://www.facebook.com"
+                    title="Our Facebook"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
 
-                  <li className="icon-social">
-                    <a
-                      href="http://www.instagram.com"
-                      title="Our Instagram"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa-brands fa-instagram"></i>
-                    </a>
-                  </li>
-                </ul>
-              </section>
+                <li className="icon-social">
+                  <a
+                    href="http://www.twitter.com"
+                    title="Our Twitter"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+
+                <li className="icon-social">
+                  <a
+                    href="http://www.instagram.com"
+                    title="Our Instagram"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
             </section>
+          </section>
         </div>
       </section>
     </>

@@ -18,7 +18,7 @@
   }
 
   .text-1 {
-    font-family: "Khand";
+    font-family: 'Khand';
 
     p {
       font-size: 40px;
@@ -26,7 +26,7 @@
   }
 
   .text-2 {
-    font-family: "Kolker Brush";
+    font-family: 'Kolker Brush';
 
     p {
       font-size: 60px;
@@ -37,7 +37,7 @@
 .button {
   &-style-1 {
     font-size: 14px;
-    font-family: "Khand", sans-serif;
+    font-family: 'Khand', sans-serif;
     background: $white;
     color: $black;
     border: none;
