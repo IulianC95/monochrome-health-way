@@ -34,7 +34,7 @@ export default function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a href="/" title="Faq">
+                    <a href="/" title="Faq" className="text-uppercase">
                       Faq
                     </a>
                   </li>
@@ -105,7 +105,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i class="fa-brands fa-youtube"></i>
+                      <i className="fa-brands fa-youtube"></i>
                     </a>
                   </li>
                   <li className="icon-social">
@@ -115,7 +115,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i class="fa-brands fa-facebook"></i>
+                      <i className="fa-brands fa-facebook"></i>
                     </a>
                   </li>
 
@@ -126,7 +126,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i class="fa-brands fa-twitter"></i>
+                      <i className="fa-brands fa-twitter"></i>
                     </a>
                   </li>
 
@@ -137,7 +137,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i class="fa-brands fa-instagram"></i>
+                      <i className="fa-brands fa-instagram"></i>
                     </a>
                   </li>
                 </ul>
@@ -156,17 +156,17 @@ export default function Footer() {
             <div className="footer-inner">
                 <ul>
                   <li>
-                    <a href="/" title="Contact Us">
+                    <a href="/" title="Contact Us" className="text-lowercase">
                       Contact Us
                     </a>
                   </li>
                   <li>
-                    <a href="/" title="Customer Care">
+                    <a href="/" title="Customer Care" className="text-lowercase">
                       Customer Care
                     </a>
                   </li>
                   <li>
-                    <a href="/" title="Delivery">
+                    <a href="/" title="Delivery" className="text-lowercase">
                       Delivery
                     </a>
                   </li>
@@ -177,17 +177,17 @@ export default function Footer() {
             <nav className="footer-nav">
                 <ul>
                   <li>
-                    <a href="/" title="About Us">
+                    <a href="/" title="About Us" className="text-lowercase">
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a href="/" title="Faq">
+                    <a href="/" title="Faq" className="text-uppercase">
                       Faq
                     </a>
                   </li>
                   <li>
-                    <a href="/" title="Affiliates">
+                    <a href="/" title="Affiliates" className="text-lowercase">
                       Affiliates
                     </a>
                   </li>
@@ -237,7 +237,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i class="fa-brands fa-youtube"></i>
+                      <i className="fa-brands fa-youtube"></i>
                     </a>
                   </li>
                   <li className="icon-social">
@@ -247,7 +247,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i class="fa-brands fa-facebook"></i>
+                      <i className="fa-brands fa-facebook"></i>
                     </a>
                   </li>
 
@@ -258,7 +258,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i class="fa-brands fa-twitter"></i>
+                      <i className="fa-brands fa-twitter"></i>
                     </a>
                   </li>
 
@@ -269,7 +269,7 @@ export default function Footer() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i class="fa-brands fa-instagram"></i>
+                      <i className="fa-brands fa-instagram"></i>
                     </a>
                   </li>
                 </ul>

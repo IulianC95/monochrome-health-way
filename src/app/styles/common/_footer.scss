@@ -21,6 +21,8 @@
       align-items: flex-start;
     }
   }
+
+
   &-links {
     display: flex;
     text-transform: lowercase;
@@ -56,8 +58,7 @@
 
     .newsletter {
       font-size: 16px;
-      }
-    
+    }
   }
 
   .vertical-line {
@@ -68,6 +69,9 @@
 
   .connect-bg {
     background-color: $container-6;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 
     @include media-breakpoint-up(lg) {
       background-color: transparent;
@@ -91,6 +95,9 @@
 
 @include media-breakpoint-up(lg) {
   section.footer-lg {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: $gray-primary;
     height: 331px;
     padding-top: 54px;
@@ -98,35 +105,33 @@
   }
 
   .footer-lg-inner {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   .footer-lg-connect {
     display: flex;
     flex-direction: column;
     width: 219px;
-    
 
     form {
-        gap: 10px;
+      gap: 10px;
 
-        label {
-            color: $white;
-        }
+      label {
+        color: $white;
+      }
 
-        label:last-child {
-            font-size: 16px;
-        }
+      label:last-child {
+        font-size: 16px;
+      }
 
-        input[type='text'] {
-            width: 217px;
-            height: 26px;
-            background-color: $gray-secondary;
-            font-size: 16px;
-
-        }
+      input[type="text"] {
+        width: 217px;
+        height: 26px;
+        background-color: $gray-secondary;
+        font-size: 16px;
+      }
     }
   }
 }
