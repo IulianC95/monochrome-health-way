@@ -1,12 +1,13 @@
-export default function NewProductsTile() {
+export default function MostOrdered() {
     return (
-        <section className="container new-products-tile">
+        <>
+        <section className="container most-ordered-tile">
         <header>
             <h1>
-                New products
+                Most ordered
             </h1>
         </header>
-        <main className="new-products-main">
+        <main className="most-ordered-main">
             <div className="product">
                 <picture>
                     <img src="/images/1cordy.png" alt=""  title=""/>
@@ -37,5 +38,6 @@ export default function NewProductsTile() {
             </div>
         </main>
         </section>
+        </>
     )
 }

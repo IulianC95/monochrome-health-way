@@ -1,0 +1,38 @@
+.most-ordered-tile {
+    background-color: $container-2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    header {
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            color: $white;
+            padding-top: 10px;
+        }
+    }
+
+    .most-ordered-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .product {
+            text-align: center;
+            color: $white;
+            h2 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            max-height: 100%;
+        }
+    };
+}
