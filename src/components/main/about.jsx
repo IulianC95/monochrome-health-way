@@ -6,14 +6,14 @@ export default function About() {
           <picture>
             <img
               src="/images/presentation.jpg"
-              alt=""
-              title=""
+              alt="Presentation Image"
+              title="Presentation Image"
               className="mobile-img img-fluid d-lg-none"
             />
             <img
               src="/images/about.png"
-              alt=""
-              title=""
+              alt="Presentation Image"
+              title="Presentation Image"
               className="mobile-img d-none d-lg-block"
             />
           </picture>
