@@ -39,10 +39,11 @@
 
     p {
       font-family: 'Khand';
-      font-size: 26px;
+      font-size: 18px;
       color: $white;
 
       @include media-breakpoint-up(lg) {
+        font-size: 24px;
       }
     }
   }
